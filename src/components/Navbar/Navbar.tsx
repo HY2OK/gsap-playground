@@ -14,6 +14,12 @@ const Navbar = () => {
           >
             button-toggle
           </Link>
+          <Link
+            to="/layer-section"
+            className="border border-black p-2 rounded-lg hover:bg-zinc-700"
+          >
+            layer-section
+          </Link>
         </div>
       </nav>
       <div className="flex-grow  bg-slate-200 relative">
