@@ -36,22 +36,13 @@ const ButtonToggle = () => {
         <div className="w-36 h-10 flex justify-center items-center border-black border-2 rounded-md">
           <button onClick={() => toggleTimeline()}>Toggle Timeline</button>
         </div>
-        <div
-          id="box"
-          className="w-36 h-10 flex justify-center items-center bg-slate-600 text-white rounded-md"
-        >
+        <div id="box" className="btn">
           Box 1
         </div>
-        <div
-          id="box"
-          className="w-36 h-10 flex justify-center items-center bg-slate-600 text-white rounded-md"
-        >
+        <div id="box" className="btn">
           Box 2
         </div>
-        <div
-          id="box"
-          className="w-36 h-10 flex justify-center items-center bg-slate-600 text-white rounded-md"
-        >
+        <div id="box" className="btn ">
           Box 3
         </div>
       </section>
