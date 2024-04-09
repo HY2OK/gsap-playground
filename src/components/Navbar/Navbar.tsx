@@ -2,7 +2,7 @@ import { Link, Outlet } from 'react-router-dom'
 
 const Navbar = () => {
   return (
-    <div className="min-h-screen flex flex-col justify-between text-white">
+    <div className="h-screen flex flex-col justify-between text-white">
       <nav className="sticky top-0 left-0 flex flex-col justify-between gap-5 px-10 py-3">
         <Link to="/" className="text-3xl font-bold cursor-pointer text-center">
           gsap playground
@@ -16,7 +16,7 @@ const Navbar = () => {
           </Link>
         </div>
       </nav>
-      <div className="flex-grow bg-slate-200 ">
+      <div className="flex-grow  bg-slate-200 relative">
         <Outlet />
       </div>
     </div>
