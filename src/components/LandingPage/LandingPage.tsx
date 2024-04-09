@@ -1,10 +1,10 @@
 import gsap from 'gsap'
-import { useLayoutEffect, useRef } from 'react'
+import { useEffect, useRef } from 'react'
 
 const LandingPage = () => {
   const comp = useRef(null)
 
-  useLayoutEffect(() => {
+  useEffect(() => {
     const ctx = gsap.context(() => {
       const tl = gsap.timeline()
       tl.from('#intro-slider', {
